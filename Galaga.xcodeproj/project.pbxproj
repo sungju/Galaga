@@ -15,6 +15,8 @@
 		1FEE93AB1E8A5C38000716AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEE93A91E8A5C38000716AC /* Main.storyboard */; };
 		1FEE93AD1E8A5C38000716AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEE93AC1E8A5C38000716AC /* Assets.xcassets */; };
 		1FEE93B01E8A5C38000716AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEE93AE1E8A5C38000716AC /* LaunchScreen.storyboard */; };
+		1FFCEB631EB8A17E002179EA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1FFCEB611EB8A17E002179EA /* LICENSE */; };
+		1FFCEB641EB8A17E002179EA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1FFCEB621EB8A17E002179EA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		1FEE93AC1E8A5C38000716AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FEE93AF1E8A5C38000716AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FEE93B11E8A5C38000716AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFCEB611EB8A17E002179EA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		1FFCEB621EB8A17E002179EA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				1FEE93AC1E8A5C38000716AC /* Assets.xcassets */,
 				1FEE93AE1E8A5C38000716AC /* LaunchScreen.storyboard */,
 				1FEE93B11E8A5C38000716AC /* Info.plist */,
+				1FFCEB611EB8A17E002179EA /* LICENSE */,
+				1FFCEB621EB8A17E002179EA /* README.md */,
 			);
 			path = Galaga;
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFCEB631EB8A17E002179EA /* LICENSE in Resources */,
 				1FEE93AB1E8A5C38000716AC /* Main.storyboard in Resources */,
 				1FEE93A21E8A5C38000716AC /* GameScene.sks in Resources */,
 				1FEE93AD1E8A5C38000716AC /* Assets.xcassets in Resources */,
@@ -150,6 +157,7 @@
 			files = (
 				1FEE93A61E8A5C38000716AC /* GameScene.swift in Sources */,
 				1FEE93A81E8A5C38000716AC /* GameViewController.swift in Sources */,
+				1FFCEB641EB8A17E002179EA /* README.md in Sources */,
 				1FEE93A01E8A5C38000716AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +320,7 @@
 				1FEE93B61E8A5C38000716AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
